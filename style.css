@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(62, 96, 216);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+.logo{
+    float: left;
+}
+.logo img{
+    width: 110px;
+}
+nav{
+    display: inline-block;
+    text-align: calc(100%-170px);
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav ul li a{
+    color: #fff;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+#area-accesso{
+    float: right;
+}
+
+/* hoover dei tasti */
+#area-accesso a:hover,
+.scarica-mac a:hover,
+#apri-discord a:hover{
+    color:rgb(62, 96, 216)
+}
+
+#area-accesso a{
+    color: #000;
+    height: 30px;
+    width: 60px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+#jumbo{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    top: 50px;
+}
+
+.text-jumbo{
+    color: white;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#jumbo .text-jumbo h1{
+    margin: 20px;
+    font-size: 50px;
+}
+
+#jumbo .text-jumbo p{
+    font-size: 18px;
+}
+
+.scarica-mac,
+#apri-discord{
+    display: inline-block
+}
+
+.scarica-mac a{
+    color: #000;
+    height: 40px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 20px;
+}
+
+#apri-discord a{
+    color: #fff;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(26, 29, 31);
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 20px;
+}
+
+/* Sezioni */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#item1{
+    float: left;
+    margin-top: 150px;
+    margin-right: 5%;
+    width: 55%;
+}
+
+#text-item1{
+    float: right;
+    margin-top: 150px;
+    padding-left: 7%;
+    width: 40%;
+}
+
+#text-item1 h1{
+    font-size: 45px;
+    padding: 25px 0 20px 0;
+}
+
+#text-item1 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
