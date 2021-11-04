@@ -39,13 +39,14 @@ nav{
     text-align: calc(100%-170px);
 }
 
-ul li{
+nav ul li{
     list-style: none;
     display: inline-block;
     margin: 0 30px;
 }
 
-nav ul li a{
+nav ul li a,
+.foot-list li a{
     color: #fff;
 }
 
@@ -60,7 +61,8 @@ nav ul li a:hover{
 /* hoover dei tasti */
 #area-accesso a:hover,
 .scarica-mac a:hover,
-#apri-discord a:hover{
+#apri-discord a:hover,
+.foot-list li a:hover{
     color:rgb(62, 96, 216)
 }
 
@@ -131,12 +133,18 @@ nav ul li a:hover{
 }
 
 /* Sezioni */
+#second,
+#fourth{
+    background-color: rgb(244, 244, 244);
+}
+
 .section-1,
 .section-2,
 .section-3,
 .section-4{
     width: 80%;
-    margin: 200px auto 0 auto;
+    margin: 0 auto 0 auto;
+    padding: 100px 0 100px 0;
 }
 
 #item1,
@@ -154,8 +162,7 @@ nav ul li a:hover{
     width: 55%;
 }
 
-#text-item1,
-#text-item3{
+.text-item1{
     float: right;
     margin-top: 150px;
     padding-left: 7%;
@@ -169,16 +176,14 @@ nav ul li a:hover{
     width: 40%;
 }
 
-#text-item1 h1,
-#text-item2 h1,
-#text-item3 h1{
+.text-item1 h1,
+#text-item2 h1{
     font-size: 45px;
     padding: 25px 0 20px 0;
 }
 
-#text-item1 p,
-#text-item2 p,
-#text-item3 p{
+.text-item1 p,
+#text-item2 p{
     font-size: 20px;
     line-height: 30px;
 }
@@ -199,10 +204,10 @@ nav ul li a:hover{
 #text-4{
     text-align: center;
     width: 85%;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
-#text-item4 h1{
+
+#text-item4 h2{
     font-size: 40px;
     padding: 25px 0 20px 0;
 }
@@ -223,4 +228,70 @@ nav ul li a:hover{
     line-height: 40px;
     margin: 20px;
     text-align: center;
+}
+
+footer{
+    background-color: rgb(27, 29, 32);
+    padding-bottom: 100px;
+}
+
+.section-5::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.section-5{
+    border-bottom: 2px solid rgb(123, 143, 218);
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 100px 0 20px 0;
+}
+
+.section-6{
+    width: 80%;
+    margin: 20px auto;
+}
+
+#col1{
+    float: left;
+    width: 30%;
+}
+
+#col2,
+#col3,
+#col4,
+#col5{
+    float: left;
+    width: 16%;
+}
+
+.foot-list{
+    list-style: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+.first-list{
+    color: rgb(123, 143, 218);
+    font-weight: bold;
+}
+
+.foot-list li{
+    padding: 3px;
+}
+
+.icon{
+    color: #fff;
+}
+
+#area-registrazione a{
+    color: #fff;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(124, 141, 218);
+    padding: 3px 6px;
+    border-radius: 15px;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 30px;
 }
