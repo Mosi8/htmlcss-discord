@@ -139,6 +139,7 @@ nav ul li a:hover{
 #second,
 #fourth{
     background-color: rgb(244, 244, 244);
+    
 }
 
 .section-1,
@@ -147,7 +148,13 @@ nav ul li a:hover{
 .section-4{
     width: 80%;
     margin: 0 auto 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 0px 0 60px 0;
+}
+
+.section-4{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 60px 0 60px 0;
 }
 
 #item1,
@@ -160,7 +167,7 @@ nav ul li a:hover{
 
 #item2{
     float: right;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: 5%;
     width: 55%;
 }
@@ -174,7 +181,7 @@ nav ul li a:hover{
 
 #text-item2{
     float: left;
-    margin-top: 200px;
+    margin-top: 100px;
     padding-right: 7%;
     width: 40%;
 }
@@ -322,4 +329,17 @@ footer{
     border-radius: 14px;
     font-size: 14px;
     display: inline-block;
+}
+
+.wave,
+#third .wave:last-child{
+    fill: rgb(244, 244, 244);
+    position: relative;
+    top: 10px;
+}
+
+#third .wave:first-child{
+    transform: scaleY(-1);
+    position: relative;
+    top: -10px;
 }
